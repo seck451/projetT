@@ -1,0 +1,120 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.se_connecter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    width: 310px;
+    background-color: #09a295;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.se_connecter:hover {
+    background-color: #0adecc;
+    color: #000;
+}
+
+.texte {
+    gap: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.conecte {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 160px;
+}
+
+p {
+    color: #909090;
+}
+
+h1 {
+    color: #5a5a5a;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.conteneur {
+    width: 650px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 5cqh;
+    overflow: hidden; /* Added to ensure child elements do not overflow */
+}
+
+.couleur {
+    background-color: #09a295;
+    position: fixed;
+    top: 19%;
+    left: 23%;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 20px;
+    width: 315px;
+    height: 68.5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+}
+
+.cl {
+    height: 100%;
+    position: absolute; /* Changed to absolute to be contained within .conteneur */
+    top: -2%;
+    left: -2%;
+}
